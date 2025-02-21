@@ -1,0 +1,20 @@
+
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/plonco/solo_leveling_system/issues"
+
+[[mods]]
+modId="solo_leveling_system"
+version="${mod_version}"
+displayName="Solo Leveling System"
+updateJSONURL="https://github.com/plonco/solo_leveling_system/update.json"
+displayURL="https://github.com/plonco/solo_leveling_system"
+description='''
+A mod for solo leveling system in Minecraft.
+'''
+
+dependencies = [
+{ modId="forge", mandatory=true, versionRange="[47,)", ordering="NONE", side="BOTH" },
+{ modId="minecraft", mandatory=true, versionRange="[1.20.1]", ordering="NONE", side="BOTH" }
+]

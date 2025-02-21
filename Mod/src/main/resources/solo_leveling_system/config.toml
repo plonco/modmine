@@ -1,0 +1,4 @@
+[enemies]
+normal = ["minecraft:zombie", "minecraft:skeleton"]
+miniboss = ["minecraft:witch"]
+boss = ["minecraft:ender_dragon"]
